@@ -5,59 +5,48 @@
 
   *An advanced, token-economizing System Prompt for Claude to radically optimize API costs, context limits, and multi-AI task delegation.*
 
+  **[English](README.md) | [Español](README-es.md) | [Français](README-fr.md) | [Deutsch](README-de.md) | [Português](README-pt.md) | [中文](README-zh.md)**
+
+  <br>
+
   [![GitHub stars](https://img.shields.io/github/stars/Bigrapb/bless_claude_token?style=social)](https://github.com/Bigrapb/bless_claude_token/stargazers)
   [![GitHub forks](https://img.shields.io/github/forks/Bigrapb/bless_claude_token?style=social)](https://github.com/Bigrapb/bless_claude_token/network/members)
   
   <br>
 
   [![Creator](https://img.shields.io/badge/Creator-BigRapB-0052CC?style=flat-square&logo=github)](https://github.com/Bigrapb)
-  [![Enterprise](https://img.shields.io/badge/Enterprise-LINKTONIK-000000?style=flat-square&logo=organization)](#)
+  [![Enterprise](https://img.shields.io/badge/Enterprise-LINKTONIK-000000?style=flat-square)](#)
   [![Services](https://img.shields.io/badge/Focus-Software_%26_Digital_Marketing-00BFFF?style=flat-square)](#)
+
+  <br>
+
+  [![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)](#)
+  [![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)](#)
+  [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](#)
 
   <br>
 
   [![GitHub release](https://img.shields.io/github/v/release/Bigrapb/bless_claude_token?style=flat-square)](https://github.com/Bigrapb/bless_claude_token/releases)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-  [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 </div>
 
 ---
 
 ## 📖 Overview
-
-**bless_claude_token** is an engineered System Prompt that transforms Claude into a Senior Software Architect and strict Token Economist. It is designed to aggressively protect your context window during massive development sessions, preventing "hallucinations" and saving up to 80% on output tokens.
+**bless_claude_token** is an engineered System Prompt that transforms Claude into a Senior Software Architect and strict Token Economist. It is designed to aggressively protect your context window, preventing "hallucinations" and saving up to 80% on output tokens.
 
 ## ✨ Core Features
+* 🛡️ **Strict Diff Patching:** Outputs only exact Git-style diff patches for modified lines.
+* 🤖 **Multi-AI Auto-Delegation:** Writes exact prompts for you to copy/paste into faster models (Llama 3/Gemini) for boilerplate.
+* 💾 **State Hibernation (`/save`):** Generates a Markdown mental map of your project's architecture.
+* 🔇 **Anti-Noise Filter:** Automatically stops processing massive error logs.
 
-* 🛡️ **Strict Diff Patching:** Forces Claude to NEVER rewrite entire files. It outputs only exact Git-style diff patches for the specific lines modified.
-* 🤖 **Multi-AI Auto-Delegation:** Claude analyzes your request and writes exact prompts for you to copy/paste into faster, free inference models (like Llama 3 or Gemini Flash) for boilerplate, HTML/CSS, and basic terminal scripts.
-* 💾 **State Hibernation (`/save`):** Generates a 300-word Markdown mental map of your project's architecture, allowing you to migrate to a fresh chat context without spending tokens reading old code.
-* 🔇 **Anti-Noise Filter:** Automatically stops processing massive error logs dumped into the prompt, guiding you to filter terminal outputs instead.
+## ⚙️ Installation
+1. Navigate to [`prompt_maestro.md`](prompt_maestro.md).
+2. Copy the raw text.
+3. Paste it into the "System Prompt" or "Project Instructions" of your LLM client.
 
----
+*For backend integration, see [`api_injection_example.js`](api_injection_example.js).*
 
-## ⚙️ Detailed Installation Guide
-
-Choose the deployment method that best fits your development environment:
-
-### 1. Official Anthropic Claude Web UI & Projects (Manual Setup)
-For direct usage within the official chat interface:
-* **Claude Pro Projects:** 1. Open your Project dashboard.
-  2. Click on **Project Instructions** in the right-side configuration bar.
-  3. Copy the full raw contents of [`prompt_maestro.md`](prompt_maestro.md) and paste it inside.
-* **Standard Chat Sessions:**
-  1. Simply paste the contents of `prompt_maestro.md` as the very first message of a new chat to initialize the Token Economist protocols.
-
-### 2. PC Local Setup via PowerShell (Windows Developer Environments)
-For developers wishing to clone and pipe the skill straight to their system clipboard using native Windows terminal tools:
-
-```powershell
-# Clone the repository to your local drive
-git clone [https://github.com/Bigrapb/bless_claude_token.git](https://github.com/Bigrapb/bless_claude_token.git)
-
-# Enter the project directory
-cd bless_claude_token
-
-# Stream the prompt directly into your Windows clipboard
-Get-Content prompt_maestro.md | Set-Clipboard
+## 📄 License
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

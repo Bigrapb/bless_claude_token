@@ -5,6 +5,17 @@
 
   *An advanced, token-economizing System Prompt for Claude to radically optimize API costs, context limits, and multi-AI task delegation.*
 
+  [![GitHub stars](https://img.shields.io/github/stars/Bigrapb/bless_claude_token?style=social)](https://github.com/Bigrapb/bless_claude_token/stargazers)
+  [![GitHub forks](https://img.shields.io/github/forks/Bigrapb/bless_claude_token?style=social)](https://github.com/Bigrapb/bless_claude_token/network/members)
+  
+  <br>
+
+  [![Creator](https://img.shields.io/badge/Creator-BigRapB-0052CC?style=flat-square&logo=github)](https://github.com/Bigrapb)
+  [![Enterprise](https://img.shields.io/badge/Enterprise-LINKTONIK-000000?style=flat-square&logo=organization)](#)
+  [![Services](https://img.shields.io/badge/Focus-Software_%26_Digital_Marketing-00BFFF?style=flat-square)](#)
+
+  <br>
+
   [![GitHub release](https://img.shields.io/github/v/release/Bigrapb/bless_claude_token?style=flat-square)](https://github.com/Bigrapb/bless_claude_token/releases)
   [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
   [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)

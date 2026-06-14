@@ -1,23 +1,34 @@
-# 🧠 bless_claude_token
+<div align="center">
+  <img src="https://via.placeholder.com/150/003366/FFFFFF?text=BCT+Logo" alt="bless_claude_token logo" width="150" />
 
-Una instrucción de sistema (System Prompt) avanzada que convierte a Claude en un Arquitecto de Software Senior y economista de tokens. Diseñada para proteger tu ventana de contexto y optimizar costos en entornos de desarrollo masivos.
+  # 🧠 bless_claude_token
 
-## 🚀 Innovaciones Clave
-* **Strict Diff Patching:** Evita que la IA reescriba archivos enteros, forzándola a escupir solo los parches de código exactos. Ahorra hasta un 80% de tokens de salida.
-* **Auto-Delegador Multi-IA:** Claude analiza la petición y te escribe los prompts exactos para que delegues las tareas repetitivas (HTML/CSS/Boilerplate) a IAs gratuitas o de inferencia ultra rápida.
-* **Protocolo de Hibernación (`/save`):** Genera un mapa mental del proyecto en un máximo de 300 palabras para migrar a un nuevo chat sin perder el hilo ni gastar tokens leyendo código antiguo.
+  *An advanced, token-economizing System Prompt for Claude to radically optimize API costs, context limits, and multi-AI task delegation.*
 
-## 🛠️ Cómo Instalar
-1. Descarga o copia el contenido del archivo `prompt_maestro.md` de este repositorio.
-2. Pégalo en la sección de "System Prompt", "Instrucciones del Proyecto" o "Instrucciones de la Skill" de tu cliente LLM preferido (Opencode, Open WebUI, o en el Playground de la API).
-3. ¡Comienza a programar de forma eficiente!
+  [![GitHub release](https://img.shields.io/github/v/release/Bigrapb/bless_claude_token?style=flat-square)](https://github.com/Bigrapb/bless_claude_token/releases)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+  [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+</div>
 
-## 💻 Ejemplos de Uso
-Si necesitas modificar una función específica dentro de un archivo extenso, la skill actuará de la siguiente manera:
+---
 
-Archivo: `src/components/Navigation.js`
---- REEMPLAZAR (Líneas 12-15) ---
-<div className="bg-white text-black">
-+++ POR +++
-<div className="bg-slate-900 text-white backdrop-blur-md">
---- FIN DEL PARCHE ---
+## 📖 Overview
+
+**bless_claude_token** is an engineered System Prompt that transforms Claude into a Senior Software Architect and strict Token Economist. It is designed to aggressively protect your context window during massive development sessions, preventing "hallucinations" and saving up to 80% on output tokens.
+
+## ✨ Core Features
+
+* 🛡️ **Strict Diff Patching:** Forces Claude to NEVER rewrite entire files. It outputs only exact Git-style diff patches for the specific lines modified.
+* 🤖 **Multi-AI Auto-Delegation:** Claude analyzes your request and writes exact prompts for you to copy/paste into faster, free inference models (like Llama 3 or Gemini Flash) for boilerplate, HTML/CSS, and basic terminal scripts.
+* 💾 **State Hibernation (`/save`):** Generates a 300-word Markdown mental map of your project's architecture, allowing you to migrate to a fresh chat context without spending tokens reading old code.
+* 🔇 **Anti-Noise Filter:** Automatically stops processing massive error logs dumped into the prompt, guiding you to filter terminal outputs instead.
+
+---
+
+## ⚙️ Installation
+
+### Option 1: Manual Installation (Web UI)
+1. Navigate to the [`prompt_maestro.md`](prompt_maestro.md) file in this repository.
+2. Copy the raw text.
+3. Paste it into the "System Prompt", "Project Instructions", or "Custom Instructions" section of your preferred LLM client (e

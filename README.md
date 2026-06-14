@@ -48,5 +48,17 @@
 
 *For backend integration, see [`api_injection_example.js`](api_injection_example.js).*
 
+# Clone the repository
+git clone [https://github.com/Bigrapb/bless_claude_token.git](https://github.com/Bigrapb/bless_claude_token.git)
+
+# Enter the directory
+cd bless_claude_token
+
+# Copy directly to clipboard (macOS)
+cat prompt_maestro.md | pbcopy
+
+# Copy directly to clipboard (Linux - requires xclip installed)
+cat prompt_maestro.md | xclip -selection clipboard
+
 ## 📄 License
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
